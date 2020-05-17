@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img.source-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.homeimg {
+    background-image: url(/projects/{Zandeli_Senekal}_T1A3/src/images/beach.jfif);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    border-radius: 10%;
+}
+
+.introduction h1 {
+    font-size: 20px;
+    padding: 5px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.animation h3 {
+    display: inline;
+    margin: .2em auto;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+    font-size: 90%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(50) 1 normal both;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 18em;
+    }
+}
