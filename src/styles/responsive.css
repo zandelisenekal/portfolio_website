@@ -92,6 +92,10 @@
         font-size: 1em;
         margin: 44%;
     }
+    .to-top {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -169,7 +173,7 @@
         display: none;
     }
     #home ul>li:hover>span {
-        border-bottom: 1.1px solid white;
+        border-bottom: 1.1px solid black;
     }
     /*Projects*/
     .container {
@@ -183,5 +187,9 @@
     }
     #projects {
         min-height: 500px;
+    }
+    .to-top {
+        display: flex;
+        justify-content: center;
     }
 }
