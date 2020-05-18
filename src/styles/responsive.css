@@ -96,6 +96,24 @@
         display: flex;
         justify-content: center;
     }
+    /*About*/
+    #contain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .profile-pic {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+    .profile-pic img {
+        height: 22em;
+        width: 22em;
+        border-radius: 50%;
+        border: 1px dashed black;
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -191,5 +209,23 @@
     .to-top {
         display: flex;
         justify-content: center;
+    }
+    /*About page*/
+    #contain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .profile-pic {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+    .profile-pic img {
+        height: 22em;
+        width: 22em;
+        border-radius: 50%;
+        border: 1px dashed black;
+        margin-top: 20px;
     }
 }
