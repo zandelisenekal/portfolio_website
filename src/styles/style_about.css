@@ -5,5 +5,43 @@
 }
 
 .background {
-    background-color: lightgreen;
+    background-color: #e2e9f0;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic img {
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+    border: 1px dashed black;
+}
+
+.description p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.container button {
+    background-color: white;
+    border: none;
+    padding: 8px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    box-shadow: 2px 2px 1px 1px grey;
 }
