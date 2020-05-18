@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -40,8 +41,25 @@
 .container button {
     background-color: white;
     border: none;
-    padding: 8px;
+    box-shadow: 2px 2px 1px 1px grey;
+    padding: 10px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
     font-family: 'Roboto Slab', serif;
     font-weight: bolder;
-    box-shadow: 2px 2px 1px 1px grey;
+}
+
+.row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons i {
+    width: 4em;
+    height: 4em;
+    color: black;
 }
