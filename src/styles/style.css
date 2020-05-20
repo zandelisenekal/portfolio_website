@@ -6,15 +6,16 @@
     box-sizing: border-box;
 }
 
-img.source-image {
+
+/*img.source-image {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-}
+}*/
 
 .homeimg {
-    background-image: url(/projects/{Zandeli_Senekal}_T1A3/src/images/beach.jfif);
+    background-image: url("../images/beach.jpeg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;

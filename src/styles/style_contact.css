@@ -3,3 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.picture {
+    background-image: url(/projects/{Zandeli_Senekal}_T1A3/src/images/contact-robot.jfif);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
