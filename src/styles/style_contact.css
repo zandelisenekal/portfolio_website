@@ -5,9 +5,92 @@
 }
 
 .picture {
-    background-image: url("../images/contact-robot.jpeg");
+    background-color: lightgrey;
+    /*background-image: url("../images/robot.jpeg");
     background-repeat: no-repeat;
-    background-size: 90% 100%;
+    background-size: 100% 100%;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+}
+
+.description p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.form label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+#name {
+    max-width: 250px;
+    height: 2em;
+}
+
+#email {
+    max-width: 250px;
+    height: 2em;
+}
+
+#message {
+    max-width: 500px;
+    height: 15em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+button {
+    padding: 4px 6px;
+    box-shadow: 2px 8px 16px 0 grey;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons i {
+    width: 4em;
+    height: 4em;
+    color: black;
+}
+
+.to-top {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.to-top a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 1px dashed black;
+    font-size: 0.8em;
 }
