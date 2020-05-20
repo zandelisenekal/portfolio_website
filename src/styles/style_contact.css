@@ -5,12 +5,9 @@
 }
 
 .picture {
-    background-image: url(/projects/{Zandeli_Senekal}_T1A3/src/images/contact-robot.jfif);
+    background-image: url("../images/contact-robot.jpeg");
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: 90% 100%;
     background-position: center;
     background-attachment: fixed;
 }
