@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+    letter-spacing: 1px;
 }
 
 .image {
@@ -61,4 +69,19 @@ img {
     display: flex;
     justify-content: center;
     border-bottom: 1px dashed black;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px dashed black;
+    font-size: 1em;
 }

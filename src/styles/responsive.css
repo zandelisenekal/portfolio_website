@@ -236,4 +236,7 @@
     .block {
         margin: 0px 120px;
     }
+    .top {
+        display: none;
+    }
 }
