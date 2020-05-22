@@ -146,5 +146,6 @@ h1 {
 .share {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+    margin: 50px;
 }
