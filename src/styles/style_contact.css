@@ -5,12 +5,13 @@
 }
 
 .picture {
-    /*background-color: lightgrey;*/
-    background-image: url("../images/robot.jpeg");
+    background: rgb(196, 163, 178);
+    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);
+    /*background-image: url("../images/robot.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 .description p {
@@ -37,12 +38,12 @@
 
 #name {
     max-width: 250px;
-    height: 2em;
+    height: 3em;
 }
 
 #email {
     max-width: 250px;
-    height: 2em;
+    height: 3em;
 }
 
 #message {

@@ -15,15 +15,13 @@ h1 {
 }
 
 .image {
-    /*background-color: lightpink;*/
-    background-image: url("../images/bwshapes.jpeg");
+    /*background-image: url("../images/bwshapes.jpeg");
     background-repeat: no-repeat;
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
     background-size: cover;
     background-position: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background: rgb(196, 163, 178);
+    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);
 }
 
 #blog {
@@ -90,7 +88,8 @@ h1 {
 /*Blog post*/
 
 .postimg {
-    background-color: lightblue;
+    background: rgb(196, 163, 178);
+    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);
 }
 
 .bloghead h1 {

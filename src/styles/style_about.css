@@ -6,15 +6,8 @@
 }
 
 .background {
-    /*background-color: #e2e9f0;*/
-    background-image: url("../images/bubbles1.jpeg");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: rgb(196, 163, 178);
+    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);
 }
 
 .profile-pic {
@@ -27,7 +20,7 @@
     height: 15em;
     width: 15em;
     border-radius: 2%;
-    border: 1px dashed white;
+    box-shadow: 0px 0px 16px 1px grey;
     margin-top: 20px;
 }
 
@@ -48,9 +41,9 @@
 }
 
 .container button {
-    background-color: white;
+    /*background-color: white;*/
     border: none;
-    box-shadow: 0px 0px 16px 1px grey;
+    box-shadow: 1px 1px 16px 1px grey;
     padding: 10px;
 }
 
