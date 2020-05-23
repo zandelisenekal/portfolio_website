@@ -7,8 +7,14 @@
 }
 
 body {
-    background-image: linear-gradient(lightpink, purple);
+    background-image: url("../images/bubbles2.jpeg");
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .description p {
@@ -18,6 +24,7 @@ body {
     margin-bottom: 20px;
     margin-left: 20%;
     margin-right: 20%;
+    font-weight: bolder;
 }
 
 
@@ -42,6 +49,7 @@ body {
 
 #projects a {
     margin-left: 45%;
+    color: black;
 }
 
 .project {

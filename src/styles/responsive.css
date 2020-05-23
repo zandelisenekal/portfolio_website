@@ -109,7 +109,7 @@
     }
     .profile-pic img {
         height: 30vh;
-        min-width: 45vw;
+        min-width: 45px;
         border-radius: 50%;
         border: 1px dashed black;
         margin-top: 20px;
@@ -214,6 +214,11 @@
         height: 300px;
     }
     #projects a {
+        display: flex;
+        justify-content: center;
+        color: black;
+        margin-top: 0px;
+        padding-bottom: 12px;
         font-size: 1em;
     }
     #projects {
@@ -236,7 +241,7 @@
     }
     .profile-pic img {
         height: 50vh;
-        min-width: 30vw;
+        min-width: 25vw;
         border-radius: 2%;
         border: 1px dashed white;
         margin-top: 20px;
