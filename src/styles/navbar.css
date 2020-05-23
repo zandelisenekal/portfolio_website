@@ -28,11 +28,11 @@ input[type="checkbox"] {
 #home i {
     display: inline-block;
     text-align: right;
-    position: fixed;
-    top: 10px;
-    right: 20px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 #toggle-nav:checked~.toggle-menu>li {

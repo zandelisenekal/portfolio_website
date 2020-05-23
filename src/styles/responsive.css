@@ -108,8 +108,8 @@
         margin-left: 50px;
     }
     .profile-pic img {
-        height: 22em;
-        width: 22em;
+        height: 30vh;
+        min-width: 45vw;
         border-radius: 50%;
         border: 1px dashed black;
         margin-top: 20px;
@@ -232,13 +232,13 @@
     .profile-pic {
         display: flex;
         justify-content: flex-start;
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .profile-pic img {
-        height: 22em;
-        width: 22em;
-        border-radius: 50%;
-        border: 1px dashed black;
+        height: 50vh;
+        min-width: 30vw;
+        border-radius: 2%;
+        border: 1px dashed white;
         margin-top: 20px;
     }
     /*Blog*/

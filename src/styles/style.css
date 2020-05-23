@@ -15,7 +15,7 @@
 }*/
 
 .homeimg {
-    background-image: url("../images/beach.jpeg");
+    background-image: url("../images/workspace.jpeg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -27,12 +27,12 @@
 
 #container {
     display: flex;
-    height: 100vh;
+    height: 55vh;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: 10px;
-    border-radius: 10%;
+    margin-top: 10px;
+    /*border: 10px;
+    border-radius: 10%;*/
 }
 
 .introduction h1 {
