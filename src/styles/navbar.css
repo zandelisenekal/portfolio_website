@@ -55,7 +55,7 @@ nav ul>li {
     font-size: 0.8em;
     letter-spacing: 0.1em;
     font-weight: bolder;
-    color: white;
+    /*color: white;*/
 }
 
 nav ul>li>a {
@@ -65,7 +65,6 @@ nav ul>li>a {
     top: 0;
     left: 0;
     z-index: 2;
-    color: white;
 }
 
 .circle {

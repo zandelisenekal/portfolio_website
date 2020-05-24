@@ -102,6 +102,6 @@ button a {
     text-decoration: none;
     color: white;
     font-family: 'Roboto Slab', serif;
-    border-bottom: 1px dashed white;
+    border-bottom: 1px solid white;
     font-size: 0.8em;
 }
