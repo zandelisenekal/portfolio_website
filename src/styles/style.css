@@ -17,9 +17,9 @@
 .homeimg {
     background-image: url("../images/workspace.jpeg");
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -36,7 +36,7 @@
 }
 
 .introduction h1 {
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
     margin: 0;
     font-family: 'Roboto', sans-serif;

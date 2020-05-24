@@ -12,16 +12,12 @@ h1 {
     text-align: center;
     margin-bottom: 1em;
     letter-spacing: 1px;
+    color: white;
+    margin-top: 20px;
 }
 
 .image {
-    /*background-image: url("../images/bwshapes.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: cover;
-    background-attachment: fixed;*/
-    background: rgb(196, 163, 178);
-    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);
+    background-color: #746074;
 }
 
 #blog {
@@ -44,7 +40,7 @@ h1 {
 }
 
 .tag {
-    background-color: white;
+    background-color: #EBE8F0;
     max-height: fit-content;
     padding: 20px;
     width: 280px;
@@ -56,6 +52,7 @@ h1 {
 .tag img {
     max-width: 100%;
     min-height: 100px;
+    box-shadow: 0px 0px 16px 1px grey;
 }
 
 .tag a {
@@ -72,15 +69,15 @@ h1 {
 .top {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .top a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px solid white;
     font-size: 1em;
 }
 
@@ -88,12 +85,14 @@ h1 {
 /*Blog post*/
 
 .postimg {
-    background: rgb(196, 163, 178);
-    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);
+    /*background: rgb(196, 163, 178);
+    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);*/
+    background-color: #524F5B;
 }
 
 .bloghead h1 {
     font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
 .bloghead h3 {
@@ -101,6 +100,7 @@ h1 {
     text-align: center;
     font-size: smaller;
     font-style: italic;
+    color: white;
 }
 
 .blogpost {
@@ -119,6 +119,7 @@ h1 {
 .blogpost p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    color: white;
 }
 
 
