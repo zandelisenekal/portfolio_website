@@ -6,14 +6,6 @@
     box-sizing: border-box;
 }
 
-
-/*img.source-image {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}*/
-
 .homeimg {
     background-image: url("../images/workspace.jpeg");
     background-repeat: no-repeat;

@@ -9,6 +9,15 @@
     background-color: #746074;
 }
 
+.barlabel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: #573957;
+}
+
 .profile-pic {
     display: flex;
     justify-content: center;
