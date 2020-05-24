@@ -51,7 +51,7 @@ nav ul>li {
     position: relative;
     z-index: 1;
     margin: 10px 10px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
     letter-spacing: 0.1em;
     font-weight: bolder;
@@ -68,8 +68,8 @@ nav ul>li>a {
 }
 
 .circle {
-    height: 55px;
-    width: 55px;
+    height: 60px;
+    width: 60px;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
@@ -78,13 +78,13 @@ nav ul>li>a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dashed black;
+    border: 1.2px dashed black;
 }
 
 .circle span {
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
 }
