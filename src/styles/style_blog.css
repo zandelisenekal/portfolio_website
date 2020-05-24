@@ -7,12 +7,50 @@
     box-sizing: border-box;
 }
 
-h1 {
-    font-family: 'Raleway', sans-serif;
+.barlabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: #EBE8F0;
+}
+
+.animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.animation h1 {
+    display: inline;
+    margin: .2em auto;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    text-align: center;
+    white-space: nowrap;
+    color: black;
+    overflow: hidden;
+    animation: typewriter 4s steps(50) 1 normal both;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 18em;
+    }
+}
+
+.barlabel h1 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-bottom: 1em;
     letter-spacing: 1px;
-    color: white;
+    color: black;
     margin-top: 20px;
 }
 
