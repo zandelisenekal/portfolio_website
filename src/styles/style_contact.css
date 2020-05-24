@@ -5,8 +5,7 @@
 }
 
 .picture {
-    background: rgb(196, 163, 178);
-    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);
+    background-color: #746074;
     /*background-image: url("../images/robot.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -16,12 +15,12 @@
 
 .description p {
     font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20%;
     margin-right: 20%;
+    color: white;
 }
 
 .form {
@@ -33,7 +32,7 @@
 
 .form label {
     font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
+    color: white;
 }
 
 #name {
@@ -90,9 +89,8 @@ button a {
 
 .to-top a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Roboto Slab', serif;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed white;
     font-size: 0.8em;
-    font-weight: bolder;
 }

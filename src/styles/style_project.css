@@ -7,8 +7,7 @@
 }
 
 body {
-    background: rgb(196, 163, 178);
-    background: linear-gradient(162deg, rgba(196, 163, 178, 0.9951330874146533) 19%, rgba(216, 225, 236, 1) 100%);
+    background-color: #746074
 }
 
 .description p {
@@ -18,7 +17,7 @@ body {
     margin-bottom: 20px;
     margin-left: 20%;
     margin-right: 20%;
-    font-weight: bolder;
+    color: white;
 }
 
 
@@ -28,6 +27,7 @@ body {
     text-align: center;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 #projects {
