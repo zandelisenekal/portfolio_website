@@ -84,6 +84,24 @@ My portfolio website consists of 6 pages:
 
 ### Screenshots
 
+##### Mobile
+
+![](C:\Users\zandelisenekal\projects\{Zandeli_Senekal}_T1A3\Docs\screenshot-mobile.png)
+
+##### Desktop
+
+![image-20200525164914411](C:\Users\zandelisenekal\AppData\Roaming\Typora\typora-user-images\image-20200525164914411.png)
+
+![image-20200525165015255](C:\Users\zandelisenekal\AppData\Roaming\Typora\typora-user-images\image-20200525165015255.png)
+
+![image-20200525165055588](C:\Users\zandelisenekal\AppData\Roaming\Typora\typora-user-images\image-20200525165055588.png)
+
+![image-20200525165128429](C:\Users\zandelisenekal\AppData\Roaming\Typora\typora-user-images\image-20200525165128429.png)
+
+![image-20200525165437704](C:\Users\zandelisenekal\AppData\Roaming\Typora\typora-user-images\image-20200525165437704.png)
+
+![image-20200525165544153](C:\Users\zandelisenekal\AppData\Roaming\Typora\typora-user-images\image-20200525165544153.png)
+
 ### Tech stack
 
 My portfolio website was designed and built using:
