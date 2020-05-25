@@ -15,7 +15,8 @@
     height: 50px;
     margin-bottom: 30px;
     margin-top: 15px;
-    background-color: #EBE8F0;
+    /*background-color: #EBE8F0;*/
+    background-color: #F0EE8F;
 }
 
 .animation {
@@ -81,17 +82,18 @@
 .tag {
     background-color: #EBE8F0;
     max-height: fit-content;
-    padding: 20px;
+    padding: 10px;
     width: 280px;
     border: 1px solid grey;
     box-shadow: 0px 2px 2px 0px 2px grey;
-    margin: 10px;
+    margin: 20px;
 }
 
 .tag img {
     max-width: 100%;
     min-height: 100px;
-    box-shadow: 0px 0px 16px 1px grey;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 1px grey;
 }
 
 .tag a {
