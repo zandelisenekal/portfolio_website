@@ -17,6 +17,7 @@
     height: 50px;
     margin-bottom: 30px;
     background-color: #F1E49F;
+    border: 1px dashed black;
 }
 
 .animation {
@@ -56,8 +57,10 @@
 .profile-pic img {
     height: 15em;
     width: 15em;
-    border-radius: 2%;
+    border-radius: 5%;
     margin-top: 20px;
+    border: 1px solid black;
+    opacity: 90%;
 }
 
 .description {
@@ -93,7 +96,7 @@
 button a {
     text-decoration: none;
     color: black;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
 }
 
@@ -106,6 +109,7 @@ button a {
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #F1E49F;
+    border: 1px dashed black;
 }
 
 .barlabel i {

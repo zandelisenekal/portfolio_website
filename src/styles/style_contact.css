@@ -12,6 +12,7 @@
     height: 50px;
     margin-bottom: 30px;
     background-color: #F1E49F;
+    border: 1px dashed black;
 }
 
 .animation {
@@ -118,14 +119,8 @@ button a {
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #F1E49F;
+    border: 1px dashed black;
 }
-
-
-/*.row {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}*/
 
 .barlabel i {
     color: black;
